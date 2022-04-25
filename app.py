@@ -8,13 +8,12 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 
-pusher = pusher_client = pusher.Pusher(
-  app_id='1388157',
-  key='4a31192bf70835d55c14',
-  secret='1bdc8ac5dfbdfff89702',
-  cluster='ap2',
-  ssl=True
-)
+pusher = pusher.Pusher(
+    app_id='PUSHER_APP_ID',
+    key='PUSHER_APP_KEY',
+    secret='PUSHER_APP_SECRET',
+    cluster='PUSHER_APP_CLUSTER',
+    ssl=True)
 
 @app.route('/')
 def index():
