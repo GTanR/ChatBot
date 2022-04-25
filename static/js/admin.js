@@ -5,11 +5,11 @@
     // Configure Pusher instance
     // ----------------------------------------------------
 
-    var pusher = new Pusher('4a31192bf70835d55c14', {
-        authEndpoint: '/pusher/auth',
-        cluster: 'ap2',
-        encrypted: true
-      });
+    var pusher = new Pusher('PUSHER_APP_KEY', {
+            authEndpoint: '/pusher/auth',
+            cluster: 'PUSHER_APP_CLUSTER',
+            encrypted: true
+        });
 
     // ----------------------------------------------------
     // Chat Details
