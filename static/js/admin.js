@@ -47,7 +47,7 @@
         // Clear the chat messages UI
         // ------------------------------------------------------------------
 
-        clearChatMessages: () => $('#chat-msgs').html(''),
+        //clearChatMessages: () => $('#chat-msgs').html(''),
     
         // ------------------------------------------------------------------
         // Add a new chat message to the chat window.
@@ -81,7 +81,7 @@
             }
 
             evt.preventDefault()
-            helpers.clearChatMessages()
+            //helpers.clearChatMessages()
         },
     
         // ------------------------------------------------------------------
